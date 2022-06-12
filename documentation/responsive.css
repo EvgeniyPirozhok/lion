@@ -1,0 +1,22 @@
+@media only screen and (max-width:992px ){
+	.temp-header__logo h2 {
+		font-size: 22px;
+	}
+}
+
+@media only screen and (max-width:768px ){
+	.temp-wrapper__sidebar.affix{
+
+		width: 100%;
+	}
+	.temp-wrapper__sidebar{
+		margin-left: 0 !important;
+		display: none;
+	}
+	.temp-header__logo h2 {
+		font-size: 20px;
+	}
+	.temp-header__logo h1{
+		display: none;
+	}
+}

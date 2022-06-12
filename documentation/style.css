@@ -1,0 +1,126 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+/*========================================
+=            style for header            =
+========================================*/
+
+.temp-header__logo {
+ border-bottom: 1px solid #bababa;
+ text-align: center;
+text-shadow: rgb(171, 0, 0) 1px 0 1px;
+}
+.temp-header__logo h1{
+  color: rgb(171, 0, 0);
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+.temp-header__logo h2{
+  display: inline-block;
+  
+}
+
+
+/*=====  End of style for header  ======*/
+ /*=======================================
+ =            sidebar section            =
+ =======================================*/
+ 
+ .temp-wrapper__sidebar{
+  background-color: #fe7568;
+  height: 100vh;
+  margin-left: -15px;
+  top: 0;
+}
+.temp-wrapper__sidebar.affix{
+  width: 24%;
+}
+.temp-wrapper__list-wrap{
+  list-style: none;
+  padding: 15px;
+}
+.temp-wrapper__sidebar li a{
+  color: #fff;
+  font-size: 16px;
+}
+.temp-wrapper__sidebar li a i{
+  margin-right: 15px;
+}
+.temp-wrapper__sidebar li a:hover{
+  text-decoration: none;
+}
+.temp-wrapper__sidebar li a:focus{
+  outline: none;
+  text-decoration: none;
+}
+.temp-wrapper__sidebar li{
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+/*=====  End of sidebar section  ======*/
+ /*=======================================
+ =            content section            =
+ =======================================*/
+ .temp-wrapper__content h2 {
+  font-size: 23px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  position: relative;
+  color: rgb(171, 0, 0);
+  text-shadow: 1px 1px 2px pink;
+}
+.temp-wrapper__content h2 :after{
+  background: #bababa none repeat scroll 0 0;
+  bottom: -28px;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.temp-wrapper__content p{
+  line-height: 31px;
+}
+/*general section*/
+.temp-wrapper__content-container ul{
+  list-style: none;
+
+}
+.temp-wrapper__content-container h4{
+  margin-top: 40px;
+}
+.temp-wrapper__content-container ul li{
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: #000;
+}
+.temp-wrapper__content-container ul li i{
+  margin-right: 15px;
+}
+.temp-wrapper__content-container ul li span{
+  color: rgb(171, 0, 0);
+  font-weight: 500;
+}
+/*end*/
+
+/*file structure*/
+.temp-wrapper__content-container img{
+  width: 100%;
+}
+/*end*/
+.temp-wrapper__temp-link {
+  color: rgb(171, 0, 0);
+  font-weight: 500;
+  margin-left: 15px;
+}
+.temp-wrapper__inner-content{
+  padding-top: 5px;
+}
+.temp-wrapper__main-content{
+  padding-top: 5px;
+}
+/*=====  End of content section  ======*/
