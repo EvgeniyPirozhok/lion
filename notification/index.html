@@ -24,6 +24,7 @@
   <body class="bkg">
     <div class="main__button">
       <a href="./second_page.html" class="login_btn">Увійти</a>
+      <!-- <a href="#win2" class="login_btn">Увійти</a> -->
       <a href="#win1" class="login_btn">Зареєструватись</a>
     </div>
     <a href="#x" class="overlay" id="win1"></a>
@@ -34,17 +35,6 @@
         method="”post”"
         class="form"
       >
-        <div class="modal__form">
-          <label for="name"> Имя </label>
-          <input
-            class="modal__input"
-            type="text"
-            name="name"
-            id="name"
-            required
-            placeholder=" "
-          />
-        </div>
 
         <div class="modal__form">
           <label for="email"> Почта </label>
@@ -58,14 +48,74 @@
           />
         </div>
 
+        <div class="modal__form">
+          <label for="password"> Пароль </label>
+          <input
+            class="modal__input"
+            type="text"
+            name="password"
+            id="password"
+            required
+            placeholder=" "
+          />
+        </div>
+
+        <div class="modal__form">
+          <label for="password_two"> Повторіть пароль </label>
+          <input
+            class="modal__input"
+            type="text"
+            name="password_two"
+            id="password_two"
+            required
+            placeholder=" "
+          />
+        </div>
+
         <label class="check">
           <input class="check__input" type="checkbox" name="agreement" />
-          Соглашаюсь с рассылкой и принимаю &nbsp;
-          <a class="check__agreement" href="#"> Условия договора</a>
+          Погоджуюсь з почтовою розсилкою та приймаю &nbsp;
+          <a class="check__agreement" href="#"> Умови використання</a>
         </label>
-        <button class="modal__btn" type="submit">Отправить</button>
+        <button class="modal__btn" type="submit">Зареєструватись</button>
       </form>
-      <a class="close" title="Закрыть" href="#close"></a>
+      <a class="close" title="Закрити" href="#close"></a>
+    </div>
+    <a href="#x" class="overlay" id="win2"></a>
+    <div class="popup">
+      <form
+        name="”login”"
+        action="”form.php”"
+        method="”post”"
+        class="form"
+      >
+        <div class="modal__form">
+          <label for="email1"> Почта </label>
+          <input
+            class="modal__input"
+            type="email1"
+            name="email1"
+            id="email1"
+            required
+            placeholder=" "
+          />
+        </div>
+
+        <div class="modal__form">
+          <label for="password1"> Пароль </label>
+          <input
+            class="modal__input"
+            type="text"
+            name="password1"
+            id="password1"
+            required
+            placeholder=" "
+          />
+        </div>
+        <!-- <button href="./second_page.html" class="modal__btn" type="submit">Увійтии</button> -->
+        <a href="./second_page.html" class="modal__btn" type="submit">  Увійти  </a> 
+      </form>
+      <a class="close" title="Закрити" href="#close"></a>
     </div>
   </body>
 </html>
